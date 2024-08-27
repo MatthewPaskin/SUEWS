@@ -113,6 +113,8 @@ CONTAINS
       ! these local variables are used in iteration
       INTEGER, PARAMETER :: max_iter = 30 ! maximum number of iteration
 
+      print *, 'SUEWS_cal_Main: git_commit'
+
       ! ####################################################################################
       ASSOCIATE ( &
          Diagnose => config%Diagnose, &
